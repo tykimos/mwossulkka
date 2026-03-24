@@ -729,10 +729,6 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ## Activity
 
 <p align="center">
-  <img src="https://repobeats.axiom.co/api/embed/ai-whatchelin.svg" alt="Repobeats analytics" width="600">
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/github/last-commit/tykimos/ai-whatchelin?style=for-the-badge&label=마지막_커밋" alt="Last Commit">
   <img src="https://img.shields.io/github/commit-activity/w/tykimos/ai-whatchelin?style=for-the-badge&label=주간_커밋" alt="Commit Activity">
   <img src="https://img.shields.io/github/stars/tykimos/ai-whatchelin?style=for-the-badge&label=Stars" alt="Stars">
