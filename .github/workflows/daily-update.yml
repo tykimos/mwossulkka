@@ -1,0 +1,66 @@
+name: Daily AI Tool Update
+
+on:
+  schedule:
+    # 매일 한국시간 오전 5시 (UTC 20:00 전날)
+    - cron: '0 20 * * *'
+  workflow_dispatch: # 수동 실행도 가능
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Claude Code to update README
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            당신은 "뭐쓸까?" 프로젝트의 자동 업데이트 에이전트입니다.
+
+            ## 작업 목표
+            AI 코딩 & 생산성 도구의 최신 정보를 검색하여 README.md를 업데이트합니다.
+
+            ## 수행할 작업
+
+            ### 1. 최신 정보 검색 및 README 업데이트
+            인터넷을 검색하여 다음 도구들의 최신 변경사항을 확인하세요:
+            - 가격 변경, 새 플랜 출시, 플랜 폐지
+            - 새 모델 출시 (GPT, Claude, Gemini 등)
+            - 주요 기능 업데이트
+            - 새로운 AI 코딩 도구 등장
+            - 커뮤니티에서 화제가 된 이슈 (장애, 논란, 전환 등)
+
+            변경사항이 있으면 README.md의 해당 섹션을 업데이트하세요.
+            변경사항이 없으면 그대로 두세요.
+
+            ### 2. 인기도 데이터 기록
+            data/popularity.csv에 오늘 날짜의 인기도 점수를 추가하세요.
+            점수 기준 (0~100):
+            - 커뮤니티 언급량, Reddit/HN 화제성
+            - 최근 업데이트 빈도
+            - 개발자 만족도 트렌드
+            - 시장 점유율 변화
+
+            CSV 형식: date,claude_code,cursor,github_copilot,windsurf,codex_cli,antigravity,gemini_cli,aider,chatgpt,claude_ai
+
+            ### 3. README에 경쟁 차트 업데이트
+            data/popularity.csv의 최근 14일 데이터를 기반으로,
+            README.md의 "일자별 인기도 트렌드" 섹션의 Mermaid xychart를 업데이트하세요.
+
+            ## 규칙
+            - 기존 README.md의 구조와 스타일을 유지하세요
+            - 팩트 체크 로그의 날짜를 오늘로 업데이트하세요
+            - 커뮤니티 인용문에는 반드시 날짜를 포함하세요
+            - 변경 사항이 없으면 불필요한 수정을 하지 마세요
+            - 한국어로 작성하세요
+          direct_push: true
+          branch: main

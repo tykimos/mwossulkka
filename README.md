@@ -24,7 +24,7 @@
   <em>"도구가 너무 많아서 도구 고르다 하루가 간다" — 2026년 개발자의 흔한 하루</em>
 </p>
 
-[코딩 도구](#-코딩-도구-에이전트--ide) · [채팅 AI](#-채팅-ai) · [AI IDE](#-ai-ide) · [코드 어시스턴트](#-코드-어시스턴트-플러그인) · [앱 빌더](#-앱-빌더) · [자율 에이전트](#-자율-에이전트) · [오픈소스](#-오픈소스) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [팩트 체크 로그](#팩트-체크-로그-2026-03-24)
+[코딩 도구](#-코딩-도구-에이전트--ide) · [채팅 AI](#-채팅-ai) · [AI IDE](#-ai-ide) · [앱 빌더](#-앱-빌더) · [오픈소스](#-오픈소스) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [인기도 트렌드](#-일자별-인기도-트렌드) · [팩트 체크](#팩트-체크-로그-2026-03-24)
 
 ---
 
@@ -564,6 +564,34 @@ xychart-beta
 | UI/컴포넌트 디자인 | **v0** |
 | 풀스택 속도, 프레임워크 유연성 | **Bolt.new** |
 | 비개발자, Supabase 통합 | **Lovable** |
+
+---
+
+## 일자별 인기도 트렌드
+
+> 매일 오전 5시(KST) GitHub Actions + Claude Code가 자동으로 최신 정보를 검색하여 업데이트합니다.
+
+<!-- POPULARITY_CHART_START -->
+```mermaid
+xychart-beta
+    title "AI 코딩 도구 일자별 인기도 (최근 14일)"
+    x-axis ["03-24"]
+    y-axis "인기 점수" 0 --> 100
+    line "Claude Code" [85]
+    line "Cursor" [87]
+    line "GH Copilot" [90]
+    line "Windsurf" [75]
+    line "Codex CLI" [72]
+    line "ChatGPT" [98]
+```
+<!-- POPULARITY_CHART_END -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/자동_업데이트-매일_05:00_KST-6366f1?style=flat-square&logo=github-actions&logoColor=white" alt="Auto Update">
+  <img src="https://img.shields.io/badge/powered_by-Claude_Code-f59e0b?style=flat-square" alt="Claude Code">
+</p>
+
+> 데이터 소스: `data/popularity.csv` | 점수 기준: 커뮤니티 언급량, 업데이트 빈도, 개발자 만족도, 시장 점유율
 
 ---
 
