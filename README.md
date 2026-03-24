@@ -31,7 +31,7 @@
 | 15 | **Devin** | 자율 에이전트 | 진정한 자율 AI 엔지니어, $500→$20 가격 혁신 |
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 xychart-beta
     title "2026 인기 순위 TOP 10"
     x-axis ["ChatGPT", "GH Copilot", "Cursor", "Claude Code", "OpenClaw", "Gemini", "Windsurf", "Codex CLI", "Cline", "Antigravity"]
@@ -44,7 +44,7 @@ xychart-beta
 ## 전체 지도
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 mindmap
   root((뭐쓸까?))
     채팅 AI
@@ -96,7 +96,7 @@ mindmap
 ### 코드를 짜고 싶다
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 flowchart LR
     A["코드를 짜고 싶다"] --> B{"어디서 작업해?"}
     B --> C["터미널 CLI"]
@@ -122,7 +122,7 @@ flowchart LR
 ### 앱을 만들거나 업무를 자동화하고 싶다
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 flowchart LR
     A{"뭘 하고 싶어?"} --> B["앱을 만들고 싶다"]
     A --> C["업무를 자동화하고 싶다"]
@@ -148,7 +148,7 @@ flowchart LR
 > 웹/앱에서 대화하며 코딩 질문, 코드 생성, 디버깅. 가장 접근성 높은 AI 도구.
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 graph LR
     subgraph 채팅AI["채팅 AI 생태계"]
         direction TB
@@ -181,7 +181,7 @@ graph LR
 > 터미널에서 코드베이스를 직접 읽고, 자율적으로 코드를 고친다. 2026년 가장 뜨거운 카테고리.
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 quadrantChart
     title 코딩 에이전트 포지셔닝
     x-axis "저비용" --> "고비용"
@@ -234,7 +234,7 @@ quadrantChart
 > 에디터 자체에 AI가 통합. 자동완성부터 멀티파일 에이전트까지.
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 timeline
     title AI IDE 진화 타임라인
     2023 : GitHub Copilot 대중화
@@ -289,7 +289,7 @@ timeline
 > 기존 IDE(VS Code, JetBrains 등)에 플러그인으로 추가하는 AI 도구.
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 graph LR
     Amp["Amp\n구 Cody\nSourcegraph"] --- AmpNote["Enterprise 전용\nFree/Pro 2025.07 폐지\nAmp으로 전환"]
     Tabnine["Tabnine\n프라이버시 특화"] --- TabNote["$39~59/user/월\n연간 구독만\n에어갭 배포"]
@@ -313,7 +313,7 @@ graph LR
 > 코딩 없이(또는 최소한으로) 앱을 만들고 배포까지. "바이브 코딩"의 본거지.
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 graph TB
     subgraph 앱빌더["앱 빌더 포지션"]
         V0["v0.app — UI/프론트 특화, Vercel 통합"]
@@ -351,7 +351,7 @@ graph TB
 > "이거 해줘" 하면 알아서 연구, 계획, 실행, 검증까지. 가장 미래적인 카테고리.
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 graph LR
     Cowork["Claude Cowork\n지식 노동자용\n파일/문서/리서치"] -->|"$20/월 Pro 포함"| CTarget["마케터, 분석가\n법무, 재무팀"]
     Devin["Devin\n소프트웨어 엔지니어용\n코드/배포/디버그"] -->|"$20/월 Core\n$500/월 Team"| DTarget["개발팀\n주니어 업무 위임"]
@@ -389,7 +389,7 @@ graph LR
 > 무료. 내 모델. 내 서버. 내 데이터. 자유의 땅.
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 xychart-beta
     title "오픈소스 AI 코딩 도구 GitHub Stars (K)"
     x-axis ["OpenClaw", "OpenCode", "Cline", "Aider", "Tabby", "Continue", "Goose"]
@@ -443,7 +443,7 @@ xychart-beta
 ### $20/월 격전지
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 graph TB
     subgraph TWENTY["$20/월 격전지 — 8개 도구가 같은 가격에 경쟁"]
         W1["ChatGPT Plus\nGPT-5.2 + Codex"]
@@ -473,7 +473,7 @@ graph TB
 ## 2026 커뮤니티 컨센서스
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+
 pie title "개발자들이 실제로 쓰는 조합 (커뮤니티 기반)"
     "Cursor + Claude Code" : 35
     "Windsurf + Codex CLI" : 20
