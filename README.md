@@ -423,13 +423,19 @@ xychart-beta
 ### Claude Code vs Codex CLI
 
 > *"프로덕션 코딩에서 꽤 엄격한 계획을 세운다. Codex는 대부분 계획을 벗어난다. Claude는 따른다."*
-> — Hacker News
+> — Hacker News `2025.12`
 
 > *"Codex-medium은 잘 짜인 계획이 있을 때 더 낫고... Sonnet 4.5는 그 외 모든 것에 낫다."*
-> — HN user "extr" (141 points)
+> — HN user "extr" (141 points) `2025.12`
 
 > *"Codex를 쓰면서 15년 만에 처음으로 코딩이 다시 즐거워졌다."*
-> — HN user "nl" (94 points)
+> — HN user "nl" (94 points) `2025.12`
+
+> *"한 번 복잡한 프롬프트 날리면 5시간 한도의 50~70%가 날아간다."*
+> — r/ClaudeAI (388 upvotes) `2026.02`
+
+> *"$20 Plus 플랜으로 하루종일 코딩해도 한도에 걸린 적 없다."*
+> — Reddit u/LaCaipirinha (31 upvotes) `2026.01`
 
 | 상황 | 승자 |
 |---|---|
@@ -441,13 +447,13 @@ xychart-beta
 ### Claude Code vs Cursor
 
 > *"Cursor는 이미 아는 걸 더 빠르게 해준다. 가속기다. Claude Code는 대신 해준다. 위임자다."*
-> — Builder.io
+> — Builder.io `2026.01`
 
 > *"무료 Cursor 구독을 줘도 Claude Code를 포기해야 한다면 거부하겠다."*
-> — r/ClaudeCode
+> — r/ClaudeCode `2026.02`
 
 > *"Claude Code는 동일 작업에 Cursor 대비 5.5배 적은 토큰을 쓴다."*
-> — 독립 개발자 벤치마크
+> — Northflank 벤치마크 `2026.03`
 
 | 상황 | 승자 |
 |---|---|
@@ -458,13 +464,13 @@ xychart-beta
 ### Cursor vs Windsurf
 
 > *"Cursor: 더 비싸게, 덜 주고, 어떻게 작동하는지 묻지 마."*
-> — r/programming (highly upvoted)
+> — r/programming `2025.H2`
 
 > *"Windsurf는 50만 줄 모노레포에서 컨텍스트를 더 잘 잡고 에러가 적었다."*
-> — r/ChatGPTCoding
+> — r/ChatGPTCoding `2026.02`
 
 > *"코드를 좀 아는 개발자라면 Cursor를 골라라. 기존 코드 위에서 반복 작업할 때 훨씬 낫다."*
-> — r/webdev
+> — r/webdev `2026.01`
 
 | 상황 | 승자 |
 |---|---|
@@ -474,10 +480,10 @@ xychart-beta
 ### Cursor vs Antigravity
 
 > *"실제로 내 코드베이스를 이해하는 사람과 페어 프로그래밍하는 느낌이다."*
-> — Cursor 지지자
+> — Cursor 지지자, Bind AI `2026.03`
 
 > *"Antigravity가 캐시 삭제 작업을 잘못 해석해서 유저의 D 드라이브 전체를 날렸다."*
-> — r/programming, HN (widely shared)
+> — r/programming, HN `2026.01`
 
 | 상황 | 승자 |
 |---|---|
@@ -487,10 +493,10 @@ xychart-beta
 ### Windsurf vs Antigravity
 
 > *"Antigravity에서 Opus로 코딩하다가 Gemini로 강제 전환되는 순간은, 무모한 운전자에게 핸들을 넘기는 것과 같다."*
-> — r/ClaudeAI
+> — r/ClaudeAI `2026.03`
 
 > *"수개월간의 조용한 쿼터 축소, 167시간 잠금, Pro 플랜 5시간 갱신 약속 위반 후... 수천 명이 대안을 찾고 있다."*
-> — 2026.03 "Antigravity 엑소더스"
+> — "Antigravity 엑소더스" `2026.03.12`
 
 | 상황 | 승자 |
 |---|---|
@@ -500,10 +506,10 @@ xychart-beta
 ### ChatGPT vs Claude (코딩)
 
 > *"Claude가 Python에서 GPT4를 압도한다."*
-> — r/programming
+> — r/programming `2026.01`
 
 > *"어제 Claude로 갈아탔는데 폰 앱 전체를 만들어줬다. 내 말을 진짜 듣는 느낌이다."*
-> — r/programming
+> — r/programming `2026.02`
 
 | 상황 | 승자 |
 |---|---|
@@ -513,9 +519,9 @@ xychart-beta
 ### Gemini CLI vs Claude Code
 
 > *"당연히 Claude Code지."*
-> — Composio.dev 저자, 양쪽 테스트 후 한마디 결론
+> — Composio.dev, 양쪽 테스트 후 한마디 결론 `2026.02`
 
-> Claude는 1시간 17분에 완료, Gemini CLI는 2시간 2분. Claude $4.80, Gemini $7.06.
+> Claude 1시간 17분 / $4.80 vs Gemini CLI 2시간 2분 / $7.06 `2026.02`
 
 | 상황 | 승자 |
 |---|---|
@@ -525,7 +531,7 @@ xychart-beta
 ### GitHub Copilot vs Cursor
 
 > *"Copilot이 더 세련되고 안정적이다. VSCode 쓰는 사람은 설정도 쉽고, 모델도 다양하고, GitHub 관련 컨텍스트 이해가 훨씬 낫다."*
-> — AlexLamper, GitHub Community (accepted answer)
+> — AlexLamper, GitHub Community (accepted answer) `2025.11`
 
 | 상황 | 승자 |
 |---|---|
@@ -535,10 +541,10 @@ xychart-beta
 ### Trae vs Cursor
 
 > *"프로프라이어터리 코드를 ByteDance 서버로 보내는 건 진짜 법적/컴플라이언스 리스크다."*
-> — 보안 커뮤니티
+> — Unit 221B 보안 분석 `2025.03`, 커뮤니티 재확인 `2026.03`
 
 > *"공짜... 직장을 잃기 전까지는."*
-> — r/programming, r/netsec 요약
+> — r/programming, r/netsec `2026.02`
 
 | 상황 | 승자 |
 |---|---|
@@ -548,8 +554,10 @@ xychart-beta
 ### 앱 빌더: Bolt vs Lovable vs v0
 
 > *"v0은 UI에, Bolt는 풀스택 속도에, Lovable은 DB 필요한 초보자에."*
+> — Y Build `2026.03`
 
-> *"세 플랫폼 모두 생성 코드의 40~45%에 취약점."* — NxCode 2026
+> *"세 플랫폼 모두 생성 코드의 40~45%에 취약점."*
+> — NxCode `2026.02`
 
 | 상황 | 승자 |
 |---|---|
