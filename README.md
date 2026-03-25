@@ -49,16 +49,12 @@
 
 <img src="https://img.shields.io/badge/자동_업데이트-매일_05:00_KST-6366f1?style=for-the-badge&logo=github-actions&logoColor=white" alt="Auto Update">
 <img src="https://img.shields.io/badge/powered_by-Claude_Code-f59e0b?style=for-the-badge" alt="Claude Code">
-<img src="https://img.shields.io/badge/검색_대상-32+_도구-ec4899?style=for-the-badge" alt="32+ tools">
+<img src="https://img.shields.io/badge/검색_대상-46+_도구-ec4899?style=for-the-badge" alt="46+ tools">
 <img src="https://img.shields.io/badge/데이터_소스-14+_사이트-10b981?style=for-the-badge" alt="14+ sites">
 <br><br>
-<a href="#-코딩-도구-에이전트--ide"><img src="https://img.shields.io/badge/코딩_도구-7개-6366f1?style=for-the-badge" alt="코딩 도구"></a>
-<a href="#-채팅-ai"><img src="https://img.shields.io/badge/채팅_AI-6개-3b82f6?style=for-the-badge" alt="채팅 AI"></a>
-<a href="#-ai-ide"><img src="https://img.shields.io/badge/AI_IDE-6개-10b981?style=for-the-badge" alt="AI IDE"></a>
-<a href="#-앱-빌더"><img src="https://img.shields.io/badge/앱_빌더-4개-f59e0b?style=for-the-badge" alt="앱 빌더"></a>
-<a href="#-오픈소스"><img src="https://img.shields.io/badge/오픈소스-7개-ec4899?style=for-the-badge" alt="오픈소스"></a>
-<a href="#-ai-이미지-생성"><img src="https://img.shields.io/badge/이미지_AI-7개-8b5cf6?style=for-the-badge" alt="이미지 AI"></a>
-<a href="#-ai-비디오-생성"><img src="https://img.shields.io/badge/비디오_AI-7개-ef4444?style=for-the-badge" alt="비디오 AI"></a>
+<a href="#-바이브코더"><img src="https://img.shields.io/badge/🧑‍💻_바이브코더-코딩_도구_26개-6366f1?style=for-the-badge" alt="바이브코더"></a>
+<a href="#-크리에이터"><img src="https://img.shields.io/badge/🎨_크리에이터-이미지/비디오_14개-8b5cf6?style=for-the-badge" alt="크리에이터"></a>
+<a href="#-일반사무"><img src="https://img.shields.io/badge/💼_일반사무-채팅/업무_8개-3b82f6?style=for-the-badge" alt="일반사무"></a>
 <br>
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
@@ -70,7 +66,7 @@
 </tr>
 </table>
 
-[코딩 도구](#-코딩-도구-에이전트--ide) · [채팅 AI](#-채팅-ai) · [AI IDE](#-ai-ide) · [앱 빌더](#-앱-빌더) · [오픈소스](#-오픈소스) · [이미지 AI](#-ai-이미지-생성) · [비디오 AI](#-ai-비디오-생성) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [인기도 트렌드](#-일자별-인기도-트렌드)
+[바이브코더](#-바이브코더) · [크리에이터](#-크리에이터) · [일반사무](#-일반사무) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [인기도 트렌드](#-일자별-인기도-트렌드)
 
 ---
 
@@ -262,22 +258,11 @@ flowchart TD
 
 ---
 
-## 채팅 AI
+---
 
-> 웹/앱에서 대화하며 코딩 질문, 코드 생성, 디버깅. 가장 접근성 높은 AI 도구.
+# 바이브코더
 
-| | ChatGPT | Claude.ai | Gemini | Copilot (MS) | Grok | Perplexity |
-|---|---|---|---|---|---|---|
-| **제공사** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
-| **사이트** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
-| **최신 모델** | GPT-5.4 | Claude Opus 4.6 | Gemini 3.1 Pro | GPT-5.4 + Claude | Grok 4.20 | Sonar Pro |
-| **무료** | O | O | O | O | O | O |
-| **시작가** | $8/월 (Go) | $20/월 (Pro) | $19.99/월 | $18/월 | $30/월 | $20/월 |
-| **최고가** | $200/월 (Pro) | $200/월 (Max) | $249.99/월 (Ultra) | $30/월 | $30/월 | $325/seat/월 |
-| **컨텍스트** | 128K | **1M** | 1M | — | **2M** | 모델별 |
-| **킬러 피처** | Canvas + Codex | Extended Thinking | 영상/이미지 생성 | M365 통합 | X 실시간 데이터 | 검색+인용 |
-
-> *"ChatGPT는 만능 스위스 나이프, Claude는 장인의 메스, Gemini는 Google 생태계의 열쇠"*
+> 코드를 짜고, 앱을 만들고, 자동화하는 바이브코더를 위한 AI 도구들.
 
 ---
 
@@ -423,6 +408,14 @@ timeline
 
 ---
 
+---
+
+# 크리에이터
+
+> 이미지와 비디오를 만드는 크리에이터를 위한 AI 도구들.
+
+---
+
 ## AI 이미지 생성
 
 > 텍스트로 이미지를 만든다. 디자이너 없이도 프로급 비주얼.
@@ -465,6 +458,33 @@ timeline
 > *"Veo 3.1의 네이티브 오디오 동기화는 게임 체인저. 별도 음향 작업이 필요 없다."* `2026.03`
 
 </details>
+
+---
+
+---
+
+# 일반사무
+
+> 질문하고, 검색하고, 문서 정리하고, 업무를 자동화하는 오피스 워커를 위한 AI 도구들.
+
+---
+
+## 채팅 AI
+
+> 웹/앱에서 대화하며 질문, 코드 생성, 디버깅. 가장 접근성 높은 AI 도구.
+
+| | ChatGPT | Claude.ai | Gemini | Copilot (MS) | Grok | Perplexity |
+|---|---|---|---|---|---|---|
+| **제공사** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
+| **사이트** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
+| **최신 모델** | GPT-5.4 | Claude Opus 4.6 | Gemini 3.1 Pro | GPT-5.4 + Claude | Grok 4.20 | Sonar Pro |
+| **무료** | O | O | O | O | O | O |
+| **시작가** | $8/월 (Go) | $20/월 (Pro) | $19.99/월 | $18/월 | $30/월 | $20/월 |
+| **최고가** | $200/월 (Pro) | $200/월 (Max) | $249.99/월 (Ultra) | $30/월 | $30/월 | $325/seat/월 |
+| **컨텍스트** | 128K | **1M** | 1M | — | **2M** | 모델별 |
+| **킬러 피처** | Canvas + Codex | Extended Thinking | 영상/이미지 생성 | M365 통합 | X 실시간 데이터 | 검색+인용 |
+
+> *"ChatGPT는 만능 스위스 나이프, Claude는 장인의 메스, Gemini는 Google 생태계의 열쇠"*
 
 ---
 
