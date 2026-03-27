@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-03-26</sub>
+  <sub>마지막 업데이트: 2026-03-27</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.03.26-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.03.27-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -131,6 +131,8 @@ timeline
          : Sora 셧다운 (3/24)
          : Claude Code Auto Mode + Computer Use (3/24)
          : Copilot 데이터 학습 논란 (3/25)
+         : GitHub Agent HQ 멀티에이전트 (Copilot+Claude+Codex)
+         : Windsurf Wave 13 Arena Mode + 병렬 에이전트
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -305,7 +307,7 @@ quadrantChart
 | **시작가** | $20/월 | $20/월 | $20/월 (AI Pro) | $20/월 | **$3/월** | **$10/월** |
 | **최고가** | $200/월 | $200/월 | $249.99/월 | $200/월 | $100/월 | $39/user/월 |
 | **모델** | Multi | Multi+SWE-1.5 | Gemini+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
-| **킬러 피처** | Autonomy Slider | Cascade 메모리 | Manager View | Spec 기반 EARS | 최저가 | 9+ IDE |
+| **킬러 피처** | Autonomy Slider | Arena Mode + 병렬 에이전트 | Manager View | Spec 기반 EARS | 최저가 | 9+ IDE |
 
 
 ### 커뮤니티 반응: IDE 전쟁
@@ -325,6 +327,12 @@ quadrantChart
 
 **GitHub Copilot 데이터 학습 논란** (2026.03.25):
 > *"4월 24일부터 GitHub이 Copilot Free/Pro/Pro+ 사용자의 상호작용 데이터를 AI 모델 학습에 사용한다. 옵트아웃 안 하면 자동 동의. 공지에 👎 59개 vs 🚀 3개."* — GitHub Blog `2026.03.25`
+
+**GitHub Agent HQ 멀티에이전트** (2026.03):
+> *"이슈를 Copilot, Claude, Codex 중 하나 또는 전부에 할당해 결과를 나란히 비교할 수 있다. 추가 구독 필요 없음."* — GitHub Blog `2026.03`
+
+**Windsurf Wave 13** (2026.03):
+> *"Wave 13에서 Arena Mode(블라인드 모델 비교), Git 워크트리 기반 병렬 에이전트, SWE-1.5 전 사용자 무료 제공. 크레딧 방식을 $20/$40/$200 쿼터 방식으로 전환."* — windsurf.com/changelog `2026.03`
 
 **Trae 프라이버시 경고**:
 > *"30초마다 ByteDance 도메인 5곳에 데이터 전송. 텔레메트리 끄기 설정해도 계속 전송."* — Unit 221B 보안 분석
@@ -470,24 +478,24 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 8일)"
-    x-axis ["03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26"]
+    x-axis ["03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27"]
     y-axis "인기 점수" 50 --> 100
-    line "GH Copilot" [90, 90, 89, 90, 90, 90, 90, 89]
-    line "Cursor" [87, 87, 87, 87, 87, 87, 86, 87]
-    line "Claude Code" [84, 84, 85, 85, 85, 85, 86, 87]
-    line "Windsurf" [74, 74, 75, 75, 75, 75, 75, 75]
-    line "Codex CLI" [71, 72, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [67, 66, 65, 64, 63, 62, 61, 60]
+    line "GH Copilot" [90, 89, 90, 90, 90, 90, 89, 89]
+    line "Cursor" [87, 87, 87, 87, 87, 86, 87, 87]
+    line "Claude Code" [84, 85, 85, 85, 85, 86, 87, 87]
+    line "Windsurf" [74, 75, 75, 75, 75, 75, 75, 75]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72]
+    line "Antigravity" [66, 65, 64, 63, 62, 61, 60, 59]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-89↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-87↑-2ECC71?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_Claude_Code-87↑-2ECC71?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-89-9B59B6?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-87-9B59B6?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Claude_Code-87-9B59B6?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-72-1ABC9C?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-60↓-95A5A6?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-59↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -924,7 +932,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-03-25)
+### 팩트 체크 로그 (2026-03-27)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 

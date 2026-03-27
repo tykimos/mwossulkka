@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-03-26</sub>
+  <sub>Last updated: 2026-03-27</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.03.26-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.03.27-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -131,6 +131,8 @@ timeline
          : Sora shutdown (Mar 24)
          : Claude Code Auto Mode + Computer Use (Mar 24)
          : Copilot data-training backlash (Mar 25)
+         : GitHub Agent HQ multi-agent (Copilot+Claude+Codex)
+         : Windsurf Wave 13 Arena Mode + parallel agents
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -307,7 +309,7 @@ Free            = Gemini CLI + Aider
 | **Starting Price** | $20/mo | $20/mo | $20/mo (AI Pro) | $20/mo | **$3/mo** | **$10/mo** |
 | **Max Price** | $200/mo | $200/mo | $249.99/mo | $200/mo | $100/mo | $39/user/mo |
 | **Model** | Multi | Multi+SWE-1.5 | Gemini+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
-| **Killer Feature** | Autonomy Slider | Cascade memory | Manager View | Spec-based EARS | Lowest price | 9+ IDEs |
+| **Killer Feature** | Autonomy Slider | Arena Mode + Parallel Agents | Manager View | Spec-based EARS | Lowest price | 9+ IDEs |
 
 
 ### Community Reactions: IDE War
@@ -327,6 +329,12 @@ Free            = Gemini CLI + Aider
 
 **GitHub Copilot Data Training Backlash** (2026.03.25):
 > *"Starting April 24, GitHub will use Copilot Free/Pro/Pro+ interaction data to train AI models unless you opt out. 59 thumbs-down vs 3 rockets on the announcement."* — GitHub Blog `2026.03.25`
+
+**GitHub Agent HQ Multi-Agent** (2026.03):
+> *"You can now assign an issue to Copilot, Claude, Codex, or all three and compare results side by side. No additional subscription required."* — GitHub Blog `2026.03`
+
+**Windsurf Wave 13** (2026.03):
+> *"Wave 13 brings Arena Mode (blind model comparison), parallel agents via Git worktrees, and SWE-1.5 free for all users. Credits replaced with quota tiers at $20/$40/$200."* — windsurf.com/changelog `2026.03`
 
 **Trae Privacy Warning**:
 > *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
@@ -470,24 +478,24 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 8 Days)"
-    x-axis ["03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26"]
+    x-axis ["03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27"]
     y-axis "Popularity Score" 50 --> 100
-    line "GH Copilot" [90, 90, 89, 90, 90, 90, 90, 89]
-    line "Cursor" [87, 87, 87, 87, 87, 87, 86, 87]
-    line "Claude Code" [84, 84, 85, 85, 85, 85, 86, 87]
-    line "Windsurf" [74, 74, 75, 75, 75, 75, 75, 75]
-    line "Codex CLI" [71, 72, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [67, 66, 65, 64, 63, 62, 61, 60]
+    line "GH Copilot" [90, 89, 90, 90, 90, 90, 89, 89]
+    line "Cursor" [87, 87, 87, 87, 87, 86, 87, 87]
+    line "Claude Code" [84, 85, 85, 85, 85, 86, 87, 87]
+    line "Windsurf" [74, 75, 75, 75, 75, 75, 75, 75]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72]
+    line "Antigravity" [66, 65, 64, 63, 62, 61, 60, 59]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-89↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-87↑-2ECC71?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_Claude_Code-87↑-2ECC71?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-89-9B59B6?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-87-9B59B6?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Claude_Code-87-9B59B6?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-72-1ABC9C?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-60↓-95A5A6?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-59↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -924,7 +932,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-03-25)
+### Fact Check Log (2026-03-27)
 
 All pricing information has been directly verified from each service's official website.
 
