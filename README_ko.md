@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-03-27</sub>
+  <sub>마지막 업데이트: 2026-03-28</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.03.27-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.03.28-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -483,24 +483,24 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 8일)"
-    x-axis ["03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27"]
+    x-axis ["03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28"]
     y-axis "인기 점수" 50 --> 100
-    line "GH Copilot" [90, 89, 90, 90, 90, 90, 89, 89]
-    line "Cursor" [87, 87, 87, 87, 87, 86, 87, 87]
-    line "Claude Code" [84, 85, 85, 85, 85, 86, 87, 87]
-    line "Windsurf" [74, 75, 75, 75, 75, 75, 75, 75]
+    line "GH Copilot" [89, 90, 90, 90, 90, 89, 89, 89]
+    line "Cursor" [87, 87, 87, 87, 86, 87, 87, 87]
+    line "Claude Code" [85, 85, 85, 85, 86, 87, 87, 88]
+    line "Windsurf" [75, 75, 75, 75, 75, 75, 75, 75]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [66, 65, 64, 63, 62, 61, 60, 59]
+    line "Antigravity" [65, 64, 63, 62, 61, 60, 59, 58]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_GH_Copilot-89-9B59B6?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Claude_Code-88↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-87-9B59B6?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_Claude_Code-87-9B59B6?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-59↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-58↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -937,7 +937,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-03-27)
+### 팩트 체크 로그 (2026-03-28)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -1046,6 +1046,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
 | 2026/03/27 | **Gemini "전환 도구"** — ChatGPT/Claude에서 대화 기록·메모리 가져오기 | [blog.google](https://blog.google/products/gemini/) |
+| 2026/03/26 | **Gemini 3.1 Flash Live** (음성 우선 멀티모달 모델, Search Live 200+개국 확대) | [9to5google.com](https://9to5google.com/2026/03/26/gemini-3-1-flash-live/) |
 | 2026/03/17 | **Gemini 3 Flash** (새 기본 모델) | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |
 | 2026/03/11 | Gemini CLI Plan Mode GA + **Antigravity 쿼터 논란** | [developers.googleblog.com](https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/) |
 | 2026/03/03 | **Gemini 3.1 Flash-Lite** (Pro의 1/8 비용) | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/) |
